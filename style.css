@@ -37,14 +37,14 @@ h1{
     /*overflow:auto;*/
 }
 .content{
-    height: 215px;
+    height: 210px;
     width:87%;
     background-color: #AEB6BF;
     overflow: auto;
     padding-top:40px;
     padding-left:10px;
     padding-right:10px;
-    padding-bottom:10px;
+    padding-bottom:5px;
     border: 2px solid black;
     margin:7%;
 }
