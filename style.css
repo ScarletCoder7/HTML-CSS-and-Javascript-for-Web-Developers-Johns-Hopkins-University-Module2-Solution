@@ -1,0 +1,97 @@
+*{
+    box-sizing:border-box;
+    font-family:cursive;
+    margin:0px;
+    padding:0px;
+}
+
+
+h1{
+    margin-bottom:60px;
+    margin-top: 40px;
+    padding-left: 1%;
+    text-align:center;
+    font-size:35px;
+    color:darkblue;
+}
+.row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box{
+    width:100%;
+    overflow:none;
+}
+.topic1, .topic2, .topic3{
+    overflow: none;
+    text-align: center;
+    border: 4px solid black;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    margin-right: 6%;
+    margin-top:0%;
+    font-weight: bold;
+    position: relative;
+    float:right;
+}
+.content{
+    height: 220px;
+    width:87%;
+    background-color: #AEB6BF;
+    overflow: none;
+    padding-top:40px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    border: 4px solid black;
+    margin:7%;
+}
+.topic1{
+    background-color:rgb(255, 182, 193);
+}
+.topic2{
+    background-color: rgb(253,0,2);
+    color: white;
+}
+.topic3{
+    background-color: #FBF986;
+}
+/**********Desktop**********/
+@media (min-width:992px){
+    .col-lg-4{
+        
+        width: 33.33%;
+        float: left;
+        
+    }
+}
+/**********Tablet**********/
+@media (min-width:768px) and (max-width:991px) {
+    .col-md-6{
+        width:50%;
+        float: left;
+    }
+    #stretch{
+        width:100%;
+        float: right;
+    }
+    #stretch .content{
+        width:93.4%;
+        margin-left:3.5%;
+        margin-top: 2.5%;
+        
+    }
+    
+}
+/**********Mobile**********/
+@media (max-width: 767px){
+    .col-sm-12{
+        width:100%;
+        float: left;
+    }
+    .content{
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+    }
+}
