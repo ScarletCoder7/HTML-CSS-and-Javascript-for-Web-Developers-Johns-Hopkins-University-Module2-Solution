@@ -23,7 +23,7 @@ h1{
 }
 .topic1, .topic2, .topic3{
     text-align: center;
-    border: 2.5px solid black;
+    border: 2px solid black;
     width: 40%;
     height: 15%;
     padding: 5px;
